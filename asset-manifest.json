@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/goIT-test-feedback/static/css/main.7acaea2f.css",
+    "main.js": "/goIT-test-feedback/static/js/main.07d3183d.js",
+    "index.html": "/goIT-test-feedback/index.html",
+    "main.7acaea2f.css.map": "/goIT-test-feedback/static/css/main.7acaea2f.css.map",
+    "main.07d3183d.js.map": "/goIT-test-feedback/static/js/main.07d3183d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.07d3183d.js"
+  ]
+}
