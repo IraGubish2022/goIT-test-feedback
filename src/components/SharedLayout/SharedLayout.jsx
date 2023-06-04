@@ -3,11 +3,11 @@ import { Suspense } from 'react';
 import Header from 'components/Header';
 import Footer from 'components/Footer';
 
-import { LayoutConteiner, Main } from './SharedLayout.styled';
+import { LayoutContainer, Main } from './SharedLayout.styled';
 
 const SharedLayout = () => {
   return (
-    <LayoutConteiner>
+    <LayoutContainer>
       <Header />
       <Suspense fallback={null}>
         <Main>
@@ -15,7 +15,7 @@ const SharedLayout = () => {
         </Main>
       </Suspense>
       <Footer />
-    </LayoutConteiner>
+    </LayoutContainer>
   );
 };
 

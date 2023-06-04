@@ -3,10 +3,10 @@ import { Routes, Route } from 'react-router-dom';
 //import { ThemeProvider } from 'styled-components';
 //import { theme } from 'constants';
 //import GlobalStyle from './ClobalStyle';
-import SharedLayout from './SharedLayout';
+import SharedLayout from './SharedLayout/SharedLayout';
 
-const HomePage = lazy(() => import('../pages/HomePage'));
-const TweetsPage = lazy(() => import('../pages/TweetsPage'));
+const HomePage = lazy(() => import('./pages/HomePage'));
+const TweetsPage = lazy(() => import('./pages/TweetsPage'));
 
 const App = () => {
   return (
